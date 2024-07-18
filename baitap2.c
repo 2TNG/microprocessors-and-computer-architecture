@@ -5,6 +5,7 @@
 #pragma config MCLRE = ON
 #pragma config WDT = OFF
 #pragma config PBADEN = OFF
+#pragma config LVP = OFF
 #define PB1 PORTBbits.RB1
 
 const unsigned char LED7[] = {0x40, 0xf9, 0x24, 0x30, 0x19, 0x12, 0x02, 0xf8, 0x00, 0x10};
